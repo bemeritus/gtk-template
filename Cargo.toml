@@ -1,0 +1,8 @@
+[package]
+name = "gtk-template"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+relm4 = { version = "0.9.1", features = ["libadwaita", "gnome_47"] }
+relm4-components = "0.9.1"
